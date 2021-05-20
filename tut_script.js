@@ -44,7 +44,9 @@ function newCDoc(){
 function newUDoc(){
 	window.open("newUDoc.html", "_self");
 }
-function save(){
+//temporary saveAll function
+//just takes you back to the new docs page (so you can 
+function saveAll(){
 	window.open("newDocs.html", "_self");
 function searchFunction(){
 	
