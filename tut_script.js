@@ -48,6 +48,7 @@ function newUDoc(){
 //just takes you back to the new docs page (so you can 
 function saveAll(){
 	window.open("newDocs.html", "_self");
+}
 function searchFunction(){
 	
 	//declare variables
