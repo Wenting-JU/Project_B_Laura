@@ -29,12 +29,24 @@
 		<div ><img src="GEF-icon.png" alt="GEF Consulting Inc."></div>
 		<h1>DOC HUB</h1>
 		<hr>
-		<div class="navbar">
-			<button class="primary" onclick="homePage()">Home</button>
-			<button class="primary" onclick="myProjects()">My Projects</button>
-			<button class="primary" onclick="logOut()">   Logout  </button>
+		<div class="btn btn-light">
+			<div class="btn-group" role="group" aria-label="Basic example">
+				<button type="button" class="btn btn-secondary" onclick="homePage()">Home</button>
+				<button type="button" class="btn btn-secondary" onclick="myProjects()">My Projects</button>
+				<button type="button" class="btn btn-secondary" onclick="logOut()">   Logout  </button>
+			</div>
 		</div>
-		<hr>
+			<br>
+			<div>
+			<nav class="navbar navbar-light bg-light">
+				<form style="width:300px; display:inline-block;">
+				  <input type="search" placeholder="Search" aria-label="Search">
+				  <button type="submit"; onclick="search()">Search</button>
+				</form>
+			  </nav>
+			</div>
+		
+		<br>
 		<br>
 		
 		<label for="projName">Project name:</label><br>
