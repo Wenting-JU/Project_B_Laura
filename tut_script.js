@@ -36,13 +36,13 @@ function newDocs(){
 }
 
 function newPDoc(){
-	window.open("newPDoc.html", "_self");
+	window.open("newPDoc.html", "_blank");
 }
 function newCDoc(){
-	window.open("newCDoc.html", "_self");
+	window.open("newCDoc.html", "_blank");
 }
 function newUDoc(){
-	window.open("newUDoc.html", "_self");
+	window.open("newUDoc.html", "_blank");
 }
 //temporary saveAll function
 //just takes you back to the new docs page (so you can 

@@ -30,13 +30,20 @@
 		<h1>DOC HUB</h1>
 		<h5 id="projName">Project Name goes here</h5>
 		<hr>
-		<div class="navbar">
-			<button class="primary" onclick="homePage()">Home</button>
-			<button class="primary" onclick="newProject()">My Projects</button>
-			<button class="primary" onclick="search()">   Search  </button>
-			<button class="primary" onclick="logOut()">   Logout  </button>
+		<div class="btn btn-light">
+				<button type="button" class="btn btn-secondary" onclick="homePage()">Home</button>
+				<button type="button" class="btn btn-secondary" onclick="myProjects()">My Projects</button>
+				<button type="button" class="btn btn-secondary" onclick="newProject()">New Project</button>
+				<button type="button" class="btn btn-secondary" onclick="logOut()">   Logout  </button>
+				<nav class="navbar navbar-light bg-light">
+					<form style="width:300px; display:inline-block;">
+					  <input type="search" placeholder="Search" aria-label="Search">
+					  <button type="submit"; onclick="search()">Search</button>
+					</form>
+				  </nav>
 		</div>
-		<hr>
+		<br>
+		<br>
 		<br>
 		
 		<div class="row">
