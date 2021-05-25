@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.83.1">
+    <title>DOC HUB</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/features/">
+    <!-- Bootstrap core CSS -->
+	<link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom styles for this template -->
+    <link href="features.css" rel="stylesheet">
+	
+	<script src="tut_script.js"></script>
+  
+</head>
+    <body>
+          
+<main>
+
+	<div class="container">
+		<br>
+		<br>
+		
+		<div ><img src="GEF-icon.png" alt="GEF Consulting Inc."></div>
+		<h1>DOC HUB</h1>
+		<h5 id="projName">Project Name goes here</h5>
+		<h6>New Project Documentation</h6>
+		<hr>
+		
+		<div class="btn btn-light">
+			<div class="btn-group" role="group" aria-label="Basic example">
+				<button type="button" class="btn btn-secondary" onclick="homePage()">Home</button>
+				<button type="button" class="btn btn-secondary" onclick="myProjects()">My Projects</button>
+				<button type="button" class="btn btn-secondary" onclick="logOut()">   Logout  </button>
+			</div>
+		</div>
+			<br>
+			<div>
+			<nav class="navbar navbar-light bg-light">
+				<form style="width:300px; display:inline-block;">
+				  <input type="search" placeholder="Search" aria-label="Search">
+				  <button type="submit"; onclick="search()">Search</button>
+				</form>
+			  </nav>
+			</div>
+		<br>
+		<br>
+		
+		<ul>
+			<li><a href="#programDescription">Program Description</a></li>
+			<li><a href="#repository">Repository</a></li>
+			<li><a href="#directory">Directory Strucutre</a></li>
+			<li><a href="#execution">Execution</a></li>
+			<li><a href="#database">Database</a></li>
+		</ul>
+		<br>
+		<br>
+		
+		<!-- if we want any of these to be required fields lmk (just add required into the opening tag) -->
+		
+		<h5 id="programDescription">Program Description</h5>
+			
+		
+		<br>
+		<h6>Purpose</h6>
+			<br>
+		<textarea id="purpose" rows="4" cols="70"></textarea>
+			<br><br>
+		<h6>Functionality</h6>
+			<br>
+		<textarea id="functionality" rows="4" cols="70"></textarea>
+			<br><br>
+		<h6>Location</h6><br>
+		<textarea id="location" rows="4" cols="70"></textarea><br><br>
+		
+		<h6>Tools and Languages</h6><br>
+		<textarea id="toolsLanguage" rows="4" cols="70"></textarea><br><br>
+		
+		<h6>API's, Libraries and External Dependencies</h6><br>
+		<textarea id="apiLibraries" rows="4" cols="70"></textarea><br><br>
+		
+		<h6>Authors</h6><br>
+		<textarea id="authors" rows="4" cols="70"></textarea><br><br>
+		
+		<h6>Current Production Version and Release Notes</h6><br>
+		<textarea id="version" rows="4" cols="70"></textarea><br><br>
+		
+		<button class="btn-secondary" onclick="cancel()">Cancel</button>
+		<button class="btn-secondary" onclick="save()">Save</button>
+		<hr>
+		
+		<h5 id="repository">Repository</h5><br>
+		
+		<h6>Owner and Collaborators</h6><br>
+		<textarea id="owner" rows="4" cols="70"></textarea><br><br>
+		
+		<h6>GitHub Access</h6><br>
+		<textarea id="gitHub" rows="4" cols="70"></textarea><br><br>
+		
+		<button class="btn-secondary" onclick="cancel()">Cancel</button>
+		<button class="btn-secondary" onclick="save()">Save</button>
+		<hr>
+		
+		<h5 id="directory">Directory Structure</h5><br>
+		
+		<h6>Home Directory and Main File(s)</h6><br>
+		<textarea id="mainFile" rows="4" cols="70"></textarea><br><br>
+		
+		<h6>Subdirectories</h6><br>
+		<textarea id="subDir" rows="4" cols="70"></textarea><br><br>
+		<hr>
+		
+		<h5 id="execution">Execution</h5><br>
+		<textarea id="execution" rows="4" cols="70"></textarea><br><br>
+		
+		<button class="btn-secondary" onclick="cancel()">Cancel</button>
+		<button class="btn-secondary" onclick="save()">Save</button>
+		<hr>
+		
+		<h5 id="database">Database</h5><br>
+		<textarea id="database" rows="4" cols="70"></textarea><br><br>
+		
+		<button class="btn-secondary" onclick="cancel()">Cancel</button>
+		<button class="btn-secondary" onclick="save()">Save</button>
+		<hr>
+		<br>
+
+		<button class="btn-secondary" onclick="saveAll()">Save All</button>
+		
+		<br>
+		<br>
+		<br>
+	</div>
+
+</main>
+
+	<!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8" crossorigin="anonymous"></script>
+    <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
+
+      
+    
+    </body>
+</html>
